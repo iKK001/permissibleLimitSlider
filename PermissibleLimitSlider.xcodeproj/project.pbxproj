@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		8F1341FA1EEF0A0800596047 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1341F91EEF0A0800596047 /* AppDelegate.swift */; };
-		8F1341FC1EEF0A0800596047 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1341FB1EEF0A0800596047 /* ViewController.swift */; };
+		8F1341FC1EEF0A0800596047 /* MyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F1341FB1EEF0A0800596047 /* MyViewController.swift */; };
 		8F1341FF1EEF0A0800596047 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1341FD1EEF0A0800596047 /* Main.storyboard */; };
 		8F1342011EEF0A0800596047 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F1342001EEF0A0800596047 /* Assets.xcassets */; };
 		8F1342041EEF0A0800596047 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F1342021EEF0A0800596047 /* LaunchScreen.storyboard */; };
@@ -36,7 +36,7 @@
 /* Begin PBXFileReference section */
 		8F1341F61EEF0A0800596047 /* PermissibleLimitSlider.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PermissibleLimitSlider.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F1341F91EEF0A0800596047 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8F1341FB1EEF0A0800596047 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F1341FB1EEF0A0800596047 /* MyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewController.swift; sourceTree = "<group>"; };
 		8F1341FE1EEF0A0800596047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F1342001EEF0A0800596047 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F1342031EEF0A0800596047 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				8F1341F91EEF0A0800596047 /* AppDelegate.swift */,
-				8F1341FB1EEF0A0800596047 /* ViewController.swift */,
+				8F1341FB1EEF0A0800596047 /* MyViewController.swift */,
 				8F1341FD1EEF0A0800596047 /* Main.storyboard */,
 				8F1342001EEF0A0800596047 /* Assets.xcassets */,
 				8F1342021EEF0A0800596047 /* LaunchScreen.storyboard */,
@@ -193,18 +193,15 @@
 				TargetAttributes = {
 					8F1341F51EEF0A0800596047 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = L2LWLYYW3N;
 						ProvisioningStyle = Automatic;
 					};
 					8F1342091EEF0A0800596047 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = L2LWLYYW3N;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8F1341F51EEF0A0800596047;
 					};
 					8F1342141EEF0A0800596047 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = L2LWLYYW3N;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 8F1341F51EEF0A0800596047;
 					};
@@ -262,7 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F1341FC1EEF0A0800596047 /* ViewController.swift in Sources */,
+				8F1341FC1EEF0A0800596047 /* MyViewController.swift in Sources */,
 				8F1341FA1EEF0A0800596047 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -415,10 +412,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L2LWLYYW3N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PermissibleLimitSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.ideenkaffee.PermissibleLimitSlider;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myidentifier.PermissibleLimitSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -428,10 +425,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = L2LWLYYW3N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PermissibleLimitSlider/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = ch.ideenkaffee.PermissibleLimitSlider;
+				PRODUCT_BUNDLE_IDENTIFIER = com.myidentifier.PermissibleLimitSlider;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -442,7 +439,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = L2LWLYYW3N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PermissibleLimitSliderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.ideenkaffee.PermissibleLimitSliderTests;
@@ -457,7 +454,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
-				DEVELOPMENT_TEAM = L2LWLYYW3N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PermissibleLimitSliderTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.ideenkaffee.PermissibleLimitSliderTests;
@@ -471,7 +468,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = L2LWLYYW3N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PermissibleLimitSliderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.ideenkaffee.PermissibleLimitSliderUITests;
@@ -485,7 +482,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				DEVELOPMENT_TEAM = L2LWLYYW3N;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = PermissibleLimitSliderUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ch.ideenkaffee.PermissibleLimitSliderUITests;
